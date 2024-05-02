@@ -1,0 +1,13 @@
+two types of data types
+1. Primitive
+
+7 types - String,Number,boolean, null, undefined,symbol,BigInt
+
+
+
+2. reference( non-Primitive)
+
+array, objects,functions
+
+
+javascript - dynamic typed language
