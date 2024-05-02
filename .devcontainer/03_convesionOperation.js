@@ -28,3 +28,12 @@ console.log(str3)
 console.log("1" + 2 + 2)
 console.log(1 + 2 +"2")
 
+console.log(+true)
+console.log(+"")
+
+let gc1 = 100
+let gc2 = 200
+++gc1;
+gc2++;
+console.log(gc1 + gc2)
+
