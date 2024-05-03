@@ -26,3 +26,25 @@ let myObj = {
 const myfunc = function(){
     console.log("Hey my world");
 }
+
+// stack (primitive), 
+
+let myyoutubename = "abc123"
+let anname = myyoutubename
+anname = "gaurav"
+
+console.log(myyoutubename);
+console.log(anname);
+
+//Heap ( non-primitive)
+
+let userone = {
+    email: "abc@gmail.com" ,
+    upi: "user@ybl"
+}
+let usertwo = userone
+
+usertwo.email = "def@google.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
